@@ -37,3 +37,8 @@ def plots(request):
 
 def histo(request):
     return render(request, 'histo.html')
+
+
+def info(request):
+    return render(request, 'info.html')
+

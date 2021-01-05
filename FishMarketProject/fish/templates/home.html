@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
     <title>Document</title>
 </head>
-<body style="background-color: bisque;">
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand active" href="{% url 'home' %}">Fish Market</a>
+          </div>
+          <ul class="nav navbar-nav">
+            
+            <li><a href="{% url 'info' %}">Info </a></li>
+            
+          </ul>
+          
+        </div>
+      </nav>
     <h1  style = "color: dimgray;">Welcome to Fish Market detection!</h1>
-    <div style="margin-left: auto">
-    <pre style = "background-color:rgb(182, 51, 51);color:greenyellow">
-      This dataset is a record of 7 common different fish species
-    in fish market sales. With this dataset, a predictive model can 
-    be performed using machine friendly data and estimate the weight 
-    of fish can be predicted.
-    </pre>
-
-    </div>
+   
 
     <form action="{% url 'result' %}">
         {% csrf_token %}
