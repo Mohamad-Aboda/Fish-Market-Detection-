@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: bisque;">
+    <h1  style = "color: dimgray;">Welcome to Fish Market detection!</h1>
+    <div style="margin-left: auto">
+    <pre style = "background-color:rgb(182, 51, 51);color:greenyellow">
+      This dataset is a record of 7 common different fish species
+    in fish market sales. With this dataset, a predictive model can 
+    be performed using machine friendly data and estimate the weight 
+    of fish can be predicted.
+    </pre>
+
+    </div>
+
+    <form action="{% url 'result' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <pre>
+    Length1:         <input type="text" required name = "Length1">    Length2:         <input type="text" required name = "Length2"><br>
+    Length3:         <input type="text" required name = "Length3">    Height:          <input type="text" required name = "Height"><br>
+    Width:           <input type="text" required name = "Width">    Species_Bream:   <input type="text" required name = "Species_Bream"><br>
+    Species_Parkki:  <input type="text" required name = "Species_Parkki">    Species_Perch:   <input type="text" required name = "Species_Perch"><br>
+    Species_Pike:    <input type="text" required name = "Species_Pike">    Species_Roach:   <input type="text" required name = "Species_Roach"><br>
+    Species_Smelt:   <input type="text" required name = "Species_Smelt">   Species_Whitefish:<input type="text" required name = "Species_Whitefish"><br>
+    
+
+        <input type="submit" value="submit">
+    </pre>
+    </form>
+
+</body>
+</html>
