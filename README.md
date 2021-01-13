@@ -75,11 +75,11 @@ This structure has two root folders & requirments file :
 ## Getting Started
 ### Pre-requisites and Local Development
 * run pip install -r requirements.txt to install all packages and libraries needed for the project 
-* navigate to model the run python finalFishModel.py 
+* navigate to model then run python finalFishModel.py 
 * navigate to FishMarketProject 
-  ** run python manage.py makemigrations 
-  ** run python manage.py migrate 
-  ** run python manage.py runserver 
+     *run python manage.py makemigrations 
+     * run python manage.py migrate 
+     * run python manage.py runserver 
   
   ## The application is run at http://127.0.0.1:8000/
   
