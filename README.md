@@ -5,7 +5,7 @@ Fish-Market-Detection is a web app to predict the fish species
 with the help of a logistical regression model.
 
 ### Project Structure
-'''
+```
 C:.
 │   requirments.txt
 │
@@ -64,7 +64,7 @@ C:.
     │
     └───__pycache__
             fishmodel.cpython-38.pyc
-'''
+```
 
 
     
