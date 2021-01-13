@@ -2,11 +2,11 @@
 
 ### Description
 Fish-Market-Detection is a web app to predict the fish species
-with the help of a logistical regression model.
+with the help of a logistic regression model.
 
 ### Project Structure
 ```
-C:.
+
 │   requirments.txt
 │
 ├───FishMarketProject
@@ -73,7 +73,7 @@ This structure has two root folders & requirments file :
 * The *model* folder contains the dataset and the trained model(Logistic Regression)
 
 ## Getting Started
-### Pre-requisites and Local Development
+### Pre-requisites and Local Development Server
 * run pip install -r requirements.txt to install all packages and libraries needed for the project 
 * navigate to model then run python finalFishModel.py 
 * navigate to FishMarketProject 
