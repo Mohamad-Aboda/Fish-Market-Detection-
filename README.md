@@ -5,7 +5,7 @@ Fish-Market-Detection is a web app to predict the fish species
 with the help of a logistical regression model.
 
 ### Project Structure
-
+'''
 │   requirments.txt
 │
 ├───FishMarketProject
@@ -63,20 +63,9 @@ with the help of a logistical regression model.
     │
     └───__pycache__
             fishmodel.cpython-38.pyc
-            
+ '''           
   
-  
-  
-  ├───FishMarketProject
-│   ├───fish
-│   │   ├───migrations
-│   │   │   └───__pycache__
-│   │   ├───templates
-│   │   └───__pycache__
-│   └───FishMarketProject
-│       └───__pycache__
-└───model
-    └───__pycache__
+
     
 This structure has two root folders & requirments file :
 * The *FishMarketProject* which contains all django files
