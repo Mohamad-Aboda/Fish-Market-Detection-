@@ -9,7 +9,7 @@ def home(request):
 
 
 def result(request):
-    LR = joblib.load('finalmodel.sav')
+    LR = joblib.load('finalFishModel.sav')
     lst = []
 
     lst.append(request.GET['Length1'])
@@ -17,14 +17,8 @@ def result(request):
     lst.append(request.GET['Length3'])
     lst.append(request.GET['Height'])
     lst.append(request.GET['Width'])
-    lst.append(request.GET['Species_Bream'])
-    lst.append(request.GET['Species_Parkki'])
-    lst.append(request.GET['Species_Perch'])
-    lst.append(request.GET['Species_Pike'])
-    lst.append(request.GET['Species_Roach'])
-    lst.append(request.GET['Species_Smelt'])
-    lst.append(request.GET['Species_Whitefish'])
-
+    lst.append(request.GET['Weight'])
+  
     # # lst.reshape(1, -1)
     # lst.reshape(-1, 1)
     ans = LR.predict([lst])

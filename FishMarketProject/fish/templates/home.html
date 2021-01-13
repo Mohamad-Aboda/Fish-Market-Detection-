@@ -26,16 +26,19 @@
     <h1  style = "color: dimgray;">Welcome to Fish Market detection!</h1>
    
 
+    
     <form action="{% url 'result' %}">
         {% csrf_token %}
         {{ form.as_p }}
         <pre>
-    Length1:         <input type="text" required name = "Length1">    Length2:         <input type="text" required name = "Length2"><br>
-    Length3:         <input type="text" required name = "Length3">    Height:          <input type="text" required name = "Height"><br>
-    Width:           <input type="text" required name = "Width">    Species_Bream:   <input type="text" required name = "Species_Bream"><br>
-    Species_Parkki:  <input type="text" required name = "Species_Parkki">    Species_Perch:   <input type="text" required name = "Species_Perch"><br>
-    Species_Pike:    <input type="text" required name = "Species_Pike">    Species_Roach:   <input type="text" required name = "Species_Roach"><br>
-    Species_Smelt:   <input type="text" required name = "Species_Smelt">   Species_Whitefish:<input type="text" required name = "Species_Whitefish"><br>
+    <h2>Please enter the data to make prediction!</h2>
+    Length1:         <input type="text" required name = "Length1"
+    placeholder = "The mean value for Length1 is 26.24" size="50">    <br>
+    Length2:         <input type="text" required name = "Length2" placeholder = "The mean value for Length2 is 28.41 " size="50"><br>
+    Length3:         <input type="text" required name = "Length3" placeholder = "The mean value for Length3 is 31.22 " size="50">   <br> 
+    Height:          <input type="text" required name = "Height" placeholder = "The mean value for Height is  8.97" size="50"><br>
+    Width:           <input type="text" required name = "Width" placeholder = "The mean value for Width is 4.41" size="50"> <br>  
+    Weight           <input type="text" required name = "Weight" placeholder = "The mean value for Weight is 398.32" size="50"><br>
     
 
         <input type="submit" value="submit">

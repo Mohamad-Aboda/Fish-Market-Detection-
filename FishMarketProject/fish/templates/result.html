@@ -17,16 +17,19 @@
           </div>
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Results</a></li>
-            <li><a href="{% url 'plots' %}">Plots </a></li>
-            <li><a href="{% url 'histograms' %}">Histograms</a></li>
+            <li><a href="{% url 'plots' %}">Bar plot </a></li>
+            <li><a href="{% url 'histograms' %}">Box Plot</a></li>
           </ul>
           
         </div>
       </nav>
 
 
-    <p>The data you entered is {{ a }} </p>
-    the res is {{ ans }}
+     <div class="well">The data you entered is {{ lst  }}</div>
+
+    
+    <div class="well"> the Specie is {{ ans }}</div>
+
 
 
     <a class="navbar-brand" href="{% url 'home' %}">Back To Home </a>
