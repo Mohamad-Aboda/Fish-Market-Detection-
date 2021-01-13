@@ -83,5 +83,8 @@ This structure has two root folders & requirments file :
   
   ## The application is run at http://127.0.0.1:8000/
   
+  ## Result 
+  ![result](https://user-images.githubusercontent.com/41721894/104440796-766bcc00-559b-11eb-8c0c-08d5aa5acfec.gif)
+
 
 .
