@@ -1,8 +1,16 @@
 # Fish-Market-Detection 
 
 ### Description
-Fish-Market-Detection is a web app to predict the fish species
-with the help of a logistic regression model.
+    Fish-Market-Detection is a web app to predict the fish species
+    with the help of a logistic regression model.
+
+### Sample Data 
+      Species  Weight  Length1  Length2  Length3   Height   Width
+      Perch   135.0     20.0     22.0     23.5   5.8750  3.5250
+      Perch  1000.0     39.8     43.0     45.2  11.9328  7.2772
+      Smelt    10.0     11.3     11.8     13.1   2.2139  1.2838
+      Bream   720.0     32.0     35.0     40.6  16.3618  6.0900
+      Perch   320.0     27.8     30.0     31.6   7.6156  4.7716
 
 ### Project Structure
 ```
