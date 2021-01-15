@@ -13,8 +13,7 @@
       Perch   320.0     27.8     30.0     31.6   7.6156  4.7716
       
 ### Species Type 
-    ![Species type](https://user-images.githubusercontent.com/41721894/104699863-05075700-571c-11eb-991c-6c3a922fc194.png)
-
+   ![Species type](https://user-images.githubusercontent.com/41721894/104700593-14d36b00-571d-11eb-97c2-edf0f213bb28.png)
 
 ### Project Structure
 ```
