@@ -11,6 +11,10 @@
       Smelt    10.0     11.3     11.8     13.1   2.2139  1.2838
       Bream   720.0     32.0     35.0     40.6  16.3618  6.0900
       Perch   320.0     27.8     30.0     31.6   7.6156  4.7716
+      
+### Species Type 
+    ![Species type](https://user-images.githubusercontent.com/41721894/104699863-05075700-571c-11eb-991c-6c3a922fc194.png)
+
 
 ### Project Structure
 ```
